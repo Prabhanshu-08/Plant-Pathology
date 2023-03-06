@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>base</title>
+</head>
+
+<style>
+
+</style>
+
+<body style="background-color: lightblue;">
+
+
+    <center>
+
+		<h1>Welcome to the Plant pathology</h1>
+		<h2 style = "background-repeat: round;">Please upload the image of leaves to know its condition</h2>
+
+
+	
+	
+	<form action="prediction" method="POST" enctype="multipart/form-data">
+		<input type="file" name='img'>
+		<input type="submit" name='btn'>
+
+	</form>
+
+        
+    </center>
+   
+
+
+
+ <center>
+
+    <h4 style="color:green;">{{prediction_text}}</h4>
+    <h4 style="color:red;">{{prediction_text_1}}</h4>
+    <h4> <img src="static/welcome.jpg" alt="" width="460" height="345" /> </h4>
+    </center>
+
+
+
+</body>
+</html>
