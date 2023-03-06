@@ -1,6 +1,7 @@
 # Plant-Pathology
 
-![PP1](https://user-images.githubusercontent.com/88246010/223158664-2ff5e910-b5bf-42a2-820d-78b55a8613a8.gif)
+![PP1](https://user-images.githubusercontent.com/88246010/223173599-89a95e5d-99ab-4cdb-9553-bf04e5db255f.gif)
+
 
 It is a deep learning project used to detect the diseases in a plant leaf. It is trained on around 1800 images having four different categories they are 'Healthy', 'Scab', 'Rust' and 'Multiple Diseases'.
 
